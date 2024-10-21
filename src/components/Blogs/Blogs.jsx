@@ -9,8 +9,8 @@ const Blogs = () => {
         .then(data=>setBlogs(data))
     },[])
     return (
-        <div>
-            
+        <div className="md:w-2/3 bg-red-400">
+            <h1 className="text-4xl">Blogs</h1>
         </div>
     );
 };
